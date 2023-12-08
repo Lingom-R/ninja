@@ -13,7 +13,7 @@ jobs:
     env:
       APP_ID: b6422948ebd2c6a4bd1afcf77d0b59a1768d06667457fb4341d40345558bde93
       BRANCH_NAME: 145-shutdown-hooks-not-executed
-      SCAN_ID: 4cc44ba68bd50b8b963f5cc288ea80e051b44838f64000b22663a9ccdffc38fe
+      SCAN_ID: 4ea0fc8059481ca9e46ab516737db296a32049160cc4d8d799e9ebe6c591a832
       REQ_URL_MAP: "${{toJSON('{\"SL_RESULT_API_HOST\":\"https://slresultapi.qa.securin.io/resultapi\"\
         ,\"SL_RESULTPARSER_API_HOST\":\"https://slresultparserapi.qa.securin.io/resultparserapi\"\
         }')}}"
